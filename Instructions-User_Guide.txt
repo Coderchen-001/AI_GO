@@ -1,0 +1,38 @@
+========================================
+   Lizzieyzy Go AI Portable Edition - User Guide
+========================================
+
+【How to Start】
+Double-click Lizzieyzy-2.5.3-win64.exe to launch the program. You can also create a desktop shortcut for easier access.
+
+【Switch Engine】
+After launching, select from the dropdown menu in the top menu bar:
+  - KataGo-18b  (Faster speed, suitable for regular computers)
+  - KataGo-28b  (Stronger playing strength, suitable for high-performance computers)
+
+【Import Game Records】
+Drag and drop .sgf game record files directly into the software window to start analysis.
+
+【First Launch Notice】
+On the first run, the software will automatically perform GPU adaptation (approximately 3-5 minutes).
+This is normal behavior. Please wait patiently and do not force close the program.
+
+【AMD Graphics Card Users】
+If you encounter errors after launching, please follow these steps:
+  1. Open the integration package folder
+  2. Navigate to engines → engine_18b folder
+  3. Open default_gtp.cfg with Notepad
+  4. Add a single line at the end of the file: openclUseFP16 = false
+  5. Save the file and restart the software
+  (For the 28b engine, perform the same operation in the engine_28b folder)
+
+【FAQ】
+Q: Nothing happens when double-clicking the shortcut?
+A: Please ensure the integration package path does not contain Chinese characters or spaces, e.g., D:\Lizzieyzy
+
+Q: The software displays "File not found"?
+A: Do not move or delete any files within the engines and jre folders.
+
+========================================
+  Happy Go Playing! 🎋
+========================================
