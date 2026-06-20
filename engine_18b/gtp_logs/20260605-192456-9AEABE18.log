@@ -1,0 +1,40 @@
+2026-06-05 19:24:56+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numSearchThreads = 6
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2026-06-05 19:24:56+0800: Loading model and initializing benchmark...
+2026-06-05 19:24:56+0800: nnRandSeed0 = 3637219414584558169
+2026-06-05 19:24:56+0800: After dedups: nnModelFile0 = kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2026-06-05 19:24:56+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-05 19:24:57+0800: Found OpenCL Platform 0: Intel(R) OpenCL HD Graphics (Intel(R) Corporation) (OpenCL 3.0 )
+2026-06-05 19:24:57+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-05 19:24:57+0800: Found OpenCL Device 0: Intel(R) Iris(R) Xe Graphics (Intel(R) Corporation) (score 6000300)
+2026-06-05 19:24:57+0800: Creating context for OpenCL Platform: Intel(R) OpenCL HD Graphics (Intel(R) Corporation) (OpenCL 3.0 )
+2026-06-05 19:24:57+0800: Using OpenCL Device 0: Intel(R) Iris(R) Xe Graphics (Intel(R) Corporation) OpenCL 3.0 NEO  (Extensions: cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_icd cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_intel_command_queue_families cl_intel_subgroups cl_intel_required_subgroup_size cl_intel_subgroups_short cl_khr_spir cl_intel_accelerator cl_intel_driver_diagnostics cl_khr_priority_hints cl_khr_throttle_hints cl_khr_create_command_queue cl_intel_subgroups_char cl_intel_subgroups_long cl_khr_il_program cl_intel_mem_force_host_memory cl_khr_subgroup_extended_types cl_khr_subgroup_non_uniform_vote cl_khr_subgroup_ballot cl_khr_subgroup_non_uniform_arithmetic cl_khr_subgroup_shuffle cl_khr_subgroup_shuffle_relative cl_khr_subgroup_clustered_reduce cl_intel_device_attribute_query cl_khr_suggested_local_work_size cl_intel_spirv_media_block_io cl_intel_spirv_subgroups cl_khr_spirv_no_integer_wrap_decoration cl_intel_unified_shared_memory cl_khr_mipmap_image cl_khr_mipmap_image_writes cl_intel_planar_yuv cl_intel_packed_yuv cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_image2d_from_buffer cl_khr_depth_images cl_khr_3d_image_writes cl_intel_media_block_io cl_khr_gl_sharing cl_khr_gl_depth_images cl_khr_gl_event cl_khr_gl_msaa_sharing cl_intel_dx9_media_sharing cl_khr_dx9_media_sharing cl_khr_d3d10_sharing cl_khr_d3d11_sharing cl_intel_d3d11_nv12_media_sharing cl_intel_sharing_format_query cl_khr_pci_bus_info cl_intel_subgroup_local_block_io cl_intel_split_work_group_barrier cl_intel_simultaneous_sharing )
+2026-06-05 19:24:57+0800: Loaded tuning parameters from: D:\KataGo\katago-v1.16.4-opencl-windows-x64_18b/KataGoData/opencltuning/tune11_gpuIntelRIrisRXeGraphics_x19_y19_c384_mv14.txt
+2026-06-05 19:25:08+0800: OpenCL backend thread 0: Model version 14
+2026-06-05 19:25:08+0800: OpenCL backend thread 0: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-06-05 19:25:09+0800: OpenCL backend thread 0: FP16Storage true FP16Compute true FP16TensorCores false FP16TensorCoresFor1x1 false
+2026-06-05 19:39:21+0800: GPU -1 finishing, processed 13770 rows 4183 batches
