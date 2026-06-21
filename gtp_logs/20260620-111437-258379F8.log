@@ -1,0 +1,141 @@
+2026-06-20 11:14:37+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxTimePondering = 60.0
+maxVisits = 500
+numSearchThreads = 6
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-20 11:14:37+0800: GTP Engine starting...
+2026-06-20 11:14:37+0800: KataGo v1.16.4
+2026-06-20 11:14:37+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-20 11:14:37+0800: Using 6 CPU thread(s) for search
+2026-06-20 11:14:37+0800: nnRandSeed0 = 3536202455796829176
+2026-06-20 11:14:37+0800: After dedups: nnModelFile0 = .\engine_28b\kata1-zhizi-b28c512nbt-muonfd2.bin.gz useFP16 auto useNHWC auto
+2026-06-20 11:14:37+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-20 11:14:39+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-20 11:14:39+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-20 11:14:39+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3652.0))
+2026-06-20 11:14:39+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-06-20 11:14:39+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) (score 11000300)
+2026-06-20 11:14:39+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-06-20 11:14:39+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-20 11:14:40+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-20 11:14:40+0800: No existing tuning parameters found or parseable or valid at: D:\GitHub自创项目\KataGo_temp\2023-06-15-windows64.without.engine\2023-06-15-windows64\engine_28b/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX5080_x19_y19_c512_mv15.txt
+2026-06-20 11:14:40+0800: Performing autotuning
+2026-06-20 11:14:40+0800: *** On some systems, this may take several minutes, please be patient ***
+2026-06-20 11:14:40+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-20 11:14:40+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-20 11:14:40+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3652.0))
+2026-06-20 11:14:40+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-06-20 11:14:40+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) (score 11000300)
+2026-06-20 11:14:40+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-06-20 11:14:40+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-20 11:14:40+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-20 11:14:40+0800: Dummy tuning thread starting
+2026-06-20 11:14:40+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-20 11:14:40+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-20 11:15:39+0800: Tuning dummy thread numeric total: 2.62759e+09
+2026-06-20 11:15:39+0800: Done tuning, saved results to D:\GitHub自创项目\KataGo_temp\2023-06-15-windows64.without.engine\2023-06-15-windows64\engine_28b/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX5080_x19_y19_c512_mv15.txt
+2026-06-20 11:15:39+0800: OpenCL backend thread 0: Model version 15
+2026-06-20 11:15:39+0800: OpenCL backend thread 0: Model name: zhizi_hzy_b28_muonfd2
+2026-06-20 11:15:41+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-06-20 11:15:41+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-20 11:15:41+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-20 11:15:41+0800: Loaded config .\engine_28b\default_gtp.cfg
+2026-06-20 11:15:41+0800: Loaded model .\engine_28b\kata1-zhizi-b28c512nbt-muonfd2.bin.gz
+2026-06-20 11:15:41+0800: Model name: zhizi_hzy_b28_muonfd2
+2026-06-20 11:15:41+0800: GTP ready, beginning main protocol loop
+2026-06-20 11:15:41+0800: Controller: name
+2026-06-20 11:15:41+0800: = KataGo
+2026-06-20 11:15:41+0800: Controller: version
+2026-06-20 11:15:41+0800: = 1.16.4+zhizi_hzy_b28_muonfd2
+2026-06-20 11:15:41+0800: Controller: list_commands
+2026-06-20 11:15:41+0800: = protocol_version
+name
+version
+known_command
+list_commands
+quit
+boardsize
+rectangular_boardsize
+clear_board
+set_position
+komi
+get_komi
+play
+undo
+kata-get-rules
+kata-set-rule
+kata-set-rules
+kata-get-models
+kata-get-param
+kata-set-param
+kata-list-params
+kgs-rules
+genmove
+kata-search
+kata-search_cancellable
+genmove_debug
+kata-search_debug
+clear_cache
+showboard
+fixed_handicap
+place_free_handicap
+set_free_handicap
+time_settings
+kgs-time_settings
+time_left
+kata-list_time_settings
+kata-time_settings
+final_score
+final_status_list
+loadsgf
+printsgf
+lz-genmove_analyze
+kata-genmove_analyze
+kata-search_analyze
+kata-search_analyze_cancellable
+lz-analyze
+kata-analyze
+kata-raw-nn
+kata-raw-human-nn
+cputime
+gomill-cpu_time
+kata-benchmark
+kata-debug-print-tc
+debug_moves
+stop
+2026-06-20 11:15:41+0800: Controller: komi 7.5
+2026-06-20 11:15:41+0800: = 
+2026-06-20 11:15:41+0800: Controller: boardsize 19
+2026-06-20 11:15:41+0800: = 
+2026-06-20 11:15:41+0800: Controller: kata-get-param playoutDoublingAdvantage
+2026-06-20 11:15:41+0800: = 0.0
+2026-06-20 11:15:41+0800: Controller: kata-get-param analysisWideRootNoise
+2026-06-20 11:15:41+0800: = 0.04
+2026-06-20 11:15:41+0800: Controller: kata-get-rules
+2026-06-20 11:15:41+0800: = {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+2026-06-20 11:15:41+0800: Controller: clear_board
+2026-06-20 11:15:41+0800: = 
+2026-06-20 11:15:41+0800: Controller: time_settings 0 2 1
+2026-06-20 11:15:41+0800: = 
+2026-06-20 11:15:41+0800: Controller: kata-analyze B 10
+2026-06-20 11:15:41+0800: =
+2026-06-20 11:15:52+0800: Controller: stop
+2026-06-20 11:15:52+0800: = 
+2026-06-20 11:16:29+0800: Controller: quit
+2026-06-20 11:16:29+0800: Quit requested by controller
+2026-06-20 11:16:29+0800: = 

@@ -1,0 +1,148 @@
+{
+  "leelaz": {
+    "limit-max-suggestion": 10,
+    "analyze-update-interval-centisec": 10,
+    "enable-lizzie-cache": true,
+    "limit-branch-length": 0,
+    "max-analyze-time-seconds": 600,
+    "max-game-thinking-time-seconds": 2,
+    "engine-settings-list": [
+      {
+        "ip": "",
+        "initialCommand": "",
+        "userName": "",
+        "preload": false,
+        "command": ".\\engine_28b\\katago.exe gtp -model .\\engine_28b\\kata1-zhizi-b28c512nbt-muonfd2.bin.gz -config .\\engine_28b\\default_gtp.cfg",
+        "komi": 7.5,
+        "isDefault": false,
+        "password": "",
+        "port": "",
+        "name": "KataGo-28b",
+        "width": 19,
+        "useJavaSSH": false,
+        "useKeyGen": false,
+        "keyGenPath": "",
+        "height": 19
+      },
+      {
+        "ip": "",
+        "initialCommand": "",
+        "userName": "",
+        "preload": false,
+        "command": ".\\engine_18b\\katago.exe gtp -model .\\engine_18b\\kata1-b18c384nbt-s9996604416-d4316597426.bin.gz -config .\\engine_18b\\default_gtp.cfg",
+        "komi": 7.5,
+        "isDefault": false,
+        "password": "",
+        "port": "",
+        "name": "KataGo-18b",
+        "width": 19,
+        "useJavaSSH": false,
+        "useKeyGen": false,
+        "keyGenPath": "",
+        "height": 19
+      }
+    ]
+  },
+  "ui": {
+    "comment-font-size": 0,
+    "shadow-size": 85,
+    "autosave-interval-seconds": -1,
+    "no-refresh-on-sub": true,
+    "win-rate-always-black": false,
+    "autoload-last": false,
+    "is-ctrl-opened": false,
+    "show-move-number": false,
+    "winrate-stroke-width": 1.7,
+    "show-next-moves": true,
+    "show-comment": true,
+    "show-leelaz-variation": true,
+    "autoload-empty": false,
+    "resume-previous-game": false,
+    "use-language": 1,
+    "use-java-looks": false,
+    "show-coordinates": true,
+    "shadows-enabled": true,
+    "exit-auto-analyze-tip": true,
+    "autoload-default": false,
+    "show-variation-graph": true,
+    "show-dynamic-komi": false,
+    "minimum-blunder-bar-width": 1,
+    "confirm-exit": false,
+    "show-replace-file-hint": true,
+    "norefresh-onmouse-move": true,
+    "show-best-moves": true,
+    "append-winrate-to-comment": true,
+    "limit-playout": false,
+    "show-captured": true,
+    "replay-branch-interval-seconds": 0.9,
+    "weighted-blunder-bar-height": false,
+    "first-load-katago": false,
+    "show-winrate-graph": true,
+    "large-winrate-graph": false,
+    "user-known-x": true,
+    "theme": "default",
+    "show-winrate-in-suggestion": true,
+    "show-scoremean-in-suggestion": true,
+    "new-move-number-in-branch": true,
+    "blunder-node-colors": [
+      [
+        155,
+        25,
+        150
+      ],
+      [
+        208,
+        16,
+        19
+      ],
+      [
+        200,
+        140,
+        50
+      ],
+      [
+        180,
+        180,
+        0
+      ],
+      [
+        140,
+        202,
+        34
+      ],
+      [
+        0,
+        220,
+        0
+      ],
+      [
+        0,
+        230,
+        230
+      ]
+    ],
+    "limit-time": true,
+    "show-playouts-in-suggestion": true,
+    "blunder-winrate-thresholds": [
+      -24,
+      -12,
+      -6,
+      -3,
+      -1,
+      3,
+      100
+    ],
+    "host-name": "DESKTOP-FKJUILD",
+    "show-blunder-bar": true,
+    "only-last-move-number": 1,
+    "show-status": true,
+    "handicap-instead-of-winrate": false,
+    "large-subboard": false,
+    "first-time-load": false,
+    "allow-close-comment-control-hint": true,
+    "show-katago-score-lead-with-komi": false,
+    "show-subboard": true,
+    "limit-playouts": 100000,
+    "board-size": 19
+  }
+}

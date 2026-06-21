@@ -1,0 +1,72 @@
+2026-06-21 09:32:06+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxTimePondering = 60.0
+maxVisits = 500
+numSearchThreads = 40
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-21 09:32:06+0800: Loading model and initializing benchmark...
+2026-06-21 09:32:06+0800: Testing with default positions for board size: 19
+2026-06-21 09:32:06+0800: nnRandSeed0 = 18027089841368576292
+2026-06-21 09:32:06+0800: After dedups: nnModelFile0 = kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2026-06-21 09:32:06+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-21 09:32:06+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:06+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-21 09:32:06+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3652.0))
+2026-06-21 09:32:06+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-06-21 09:32:06+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) (score 11000300)
+2026-06-21 09:32:06+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-06-21 09:32:06+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:06+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-21 09:32:06+0800: Loaded tuning parameters from: D:\GitHub自创项目\测试区\Lizzieyzy-KataGo-Portable_v1.1\Lizzieyzy-KataGo-Portable_v1.0\Lizzieyzy-KataGo-Portable_v1.1\engine_18b/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX5080_x19_y19_c384_mv14.txt
+2026-06-21 09:32:07+0800: OpenCL backend thread 0: Model version 14
+2026-06-21 09:32:07+0800: OpenCL backend thread 0: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-06-21 09:32:07+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-06-21 09:32:08+0800: Loaded config D:\GitHub自创项目\测试区\Lizzieyzy-KataGo-Portable_v1.1\Lizzieyzy-KataGo-Portable_v1.0\Lizzieyzy-KataGo-Portable_v1.1\engine_18b/default_gtp.cfg
+2026-06-21 09:32:08+0800: Loaded model kata1-b18c384nbt-s9996604416-d4316597426.bin.gz
+2026-06-21 09:32:08+0800: GPU -1 finishing, processed 5 rows 5 batches
+2026-06-21 09:32:08+0800: nnRandSeed0 = 15438460601336569043
+2026-06-21 09:32:08+0800: After dedups: nnModelFile0 = kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2026-06-21 09:32:08+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-21 09:32:08+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:08+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-21 09:32:08+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3652.0))
+2026-06-21 09:32:08+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-06-21 09:32:08+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) (score 11000300)
+2026-06-21 09:32:08+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-06-21 09:32:08+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:08+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-21 09:32:08+0800: Loaded tuning parameters from: D:\GitHub自创项目\测试区\Lizzieyzy-KataGo-Portable_v1.1\Lizzieyzy-KataGo-Portable_v1.0\Lizzieyzy-KataGo-Portable_v1.1\engine_18b/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX5080_x19_y19_c384_mv14.txt
+2026-06-21 09:32:08+0800: OpenCL backend thread 0: Model version 14
+2026-06-21 09:32:08+0800: OpenCL backend thread 0: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-06-21 09:32:09+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-06-21 09:32:55+0800: GPU -1 finishing, processed 49601 rows 8066 batches
+2026-06-21 09:32:55+0800: nnRandSeed0 = 646747123623185878
+2026-06-21 09:32:55+0800: After dedups: nnModelFile0 = kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2026-06-21 09:32:55+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-21 09:32:56+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:56+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-06-21 09:32:56+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3652.0))
+2026-06-21 09:32:56+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-06-21 09:32:56+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) (score 11000300)
+2026-06-21 09:32:56+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-06-21 09:32:56+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.1.123)
+2026-06-21 09:32:56+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 5080 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-06-21 09:32:56+0800: Loaded tuning parameters from: D:\GitHub自创项目\测试区\Lizzieyzy-KataGo-Portable_v1.1\Lizzieyzy-KataGo-Portable_v1.0\Lizzieyzy-KataGo-Portable_v1.1\engine_18b/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX5080_x19_y19_c384_mv14.txt
+2026-06-21 09:32:56+0800: OpenCL backend thread 0: Model version 14
+2026-06-21 09:32:56+0800: OpenCL backend thread 0: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-06-21 09:32:57+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-06-21 09:33:15+0800: GPU -1 finishing, processed 32245 rows 1065 batches

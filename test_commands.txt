@@ -1,0 +1,6 @@
+name
+version
+time_settings 0 2 1
+genmove b
+lz-genmove_analyze w 100
+showboard
