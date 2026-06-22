@@ -1,6 +1,12 @@
 # 🎯 Lizzieyzy 围棋AI 整合便携版
 
-一个开箱即用的围棋AI分析工具，基于强大的 KataGo 引擎，集成友好的图形界面，让你轻松体验 AI 围棋的魅力。
+一个开箱即用的围棋AI分析工具,基于强大的 KataGo 引擎,集成友好的图形界面,让你轻松体验 AI 围棋的魅力。
+
+---
+
+<div align="center">
+  <img src="示例效果图.png" alt="Lizzieyzy-KataGo 应用程序截图" width="100%" />
+</div>
 
 ---
 
