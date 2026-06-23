@@ -178,11 +178,13 @@ Lizzieyzy-KataGo-Portable_v1.1/
 
 ## 📌 许可证声明
 
-本整合包仅是将上述开源组件打包分发，未修改任何源代码。各组件均遵循其原始许可证，详见各组件目录下的 LICENSE 文件。
+本整合包仅是将上述开源组件打包分发,未修改任何源代码。各组件均遵循其原始许可证,详见各组件目录下的 LICENSE 文件。
 
-- **Lizzieyzy**：GNU General Public License v3.0 → `/LICENSE.txt`
-- **KataGo**：MIT License → `/engine_18b/LICENSE` 和 `/engine_28b/LICENSE`
-- **OpenJDK**：GPL v2 with Classpath Exception → `/jre/java17/LICENSE`
+- **Lizzieyzy**:GNU General Public License v3.0 → `/LICENSE.txt`
+- **KataGo**:MIT License → `/engine_18b/LICENSE` 和 `/engine_28b/LICENSE`
+- **OpenJDK**:GPL v2 with Classpath Exception → `/jre/java17/LICENSE`
+
+请遵守各组件的原始许可证条款使用本整合包。
 
 本整合包仅供学习交流使用，不得用于商业目的。
 
